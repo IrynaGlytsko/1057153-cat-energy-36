@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Cat energy</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/index.js" defer></script>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Cat energy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicons/favicon-icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/index.js" defer></script>
+</head>
 
   <body class="page__body">
 
@@ -48,8 +51,8 @@
               srcset="images/index-can-desktop-1x.png 1x,
               images/index-can-desktop-2x.png 2x" width="552" height="449">
             <source type="image/png" media="(min-width: 768px)"
-              srcset="images/index-can-tablet-1x.png 1x images/index-can-tablet-2x.png 2x" width="709" height="609">
-            <img class="hero__image" src="images/index-can-mobile-1x.png" srcset="images/index-can-mobile-2x.png 2x" alt="Упаковка еды Cat energy" width="280" height="270">
+              srcset="images/index-can-tablet-1x.png 1x, images/index-can-tablet-2x.png 2x" width="709" height="609">
+            <img class="hero__image" src="images/index-can-mobile-1x.png" srcset="images/index-can-mobile-2x.png 2x" width="280" height="270" alt="Упаковка еды Cat energy">
           </picture>
           <a class="hero__button button" href="#">Подобрать программу</a>
         </div>
@@ -124,20 +127,18 @@
               <picture>
                 <source type="image/png" media="(min-width: 768px)"
                 srcset="images/cat-tablet-before-1x.png 1x, images/cat-tablet-before-2x.png 2x" width="560" height="512">
-                <img class="compare-slider__image compare-slider__image--before" src="images/cat-mobile-before-1x.png"
-                srcset="images/cat-mobile-before-2x.png 2x" alt="Толстый котик" width="280" height="256">
+                <img class="live-example__slider-image live-example__slider-image--before" src="images/cat-mobile-before-1x.png"
+                srcset="images/cat-mobile-before-2x.png 2x" width="280" height="256" alt="Толстый котик">
               </picture>
               <picture>
                 <source type="image/png" media="(min-width: 768px)"
                 srcset="images/cat-tablet-affter-1x.png 1x, images/cat-mobile-affter-2x.png 2x" width="560" height="512">
-                <img class="compare-slider__image compare-slider__image--affter" src="images/cat-mobile-affter-1x.png"
-                srcset="images/cat-mobile-affter-2x.png 2x" alt="Худой котик" width="280" height="256">
+                <img class="live-example__slider-image live-example__slider-image--affter" src="images/cat-mobile-affter-1x.png"
+                srcset="images/cat-mobile-affter-2x.png 2x" width="280" height="256" alt="Худой котик">
               </picture>
-              <div class="compare-slider__control">
-                <button class="compare-slider__control-button" type="button">
-                  <span class="visually-hidden">
-                    Переключить вид
-                  </span>
+              <div class="live-example__slider-control">
+                <button class="live-example__slider-control-button" type="button">
+                  <span class="visually-hidden">Переключить вид</span>
                 </button>
               </div>
             </div>
@@ -168,36 +169,36 @@
 
     <footer class="page__footer">
       <div class="wrapper">
-        <a class="footer__logo logo" href="index.html">
-          <img class="footer__logo-text" src="images/footer-logo.svg" width="128" height="24" alt="Логотип сайта Cat energy">
+        <a class="page__footer-logo logo" href="index.html">
+          <img class="page__footer-logo-text" src="images/footer-logo.svg" width="128" height="24" alt="Логотип сайта Cat energy">
         </a>
 
-        <section class="footer__social">
+        <section class="footer-social">
           <h2 class="visually-hidden">Мы в социальных сетях</h2>
-          <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link--icon-vk" href="#">
-                <img class="social__image" src="images/icons/vkontakte.svg" width="28"
+          <ul class="footer-social__list">
+            <li class="footer-social__item">
+              <a class="footer-social__link footer-social__link--icon-vk" href="#">
+                <img class="footer-social__image" src="images/icons/vkontakte.svg" width="28"
                 height="22" alt="Социальная сеть vkontakte">
               </a>
             </li>
-            <li class="social__item">
-              <a class="social__link social__link--icon-youtube" href="#">
-                <img class="social__image" src="images/icons/youtube.svg" width="28"
+            <li class="footer-social__item">
+              <a class="footer-social__link footer-social__link--icon-youtube" href="#">
+                <img class="footer-social__image" src="images/icons/youtube.svg" width="28"
                 height="22" alt="Социальная сеть youtube">
               </a>
             </li>
-            <li class="social__item">
-              <a class="social__link social__link--icon-telegram" href="#">
-                <img class="social__image" src="images/icons/telegram.svg" width="28"
+            <li class="footer-social__item">
+              <a class="footer-social__link footer-social__link--icon-telegram" href="#">
+                <img class="footer-social__image" src="images/icons/telegram.svg" width="28"
                 height="22" alt="Социальная сеть telegram">
               </a>
             </li>
           </ul>
 
-          <div class="footer__copyright">
-            <a class="footer__copyright-text" href="#">HTML Academy</a>
-            <a class="footer__copyright-logo" href="#">
+          <div class="footer-copyright">
+            <a class="footer-copyright__text" href="#">HTML Academy</a>
+            <a class="footer-copyright__logo" href="#">
               <img src="images/icons/logo-html-academy.svg" width="27" height="34" alt="Логотип HTML Academy">
             </a>
           </div>
