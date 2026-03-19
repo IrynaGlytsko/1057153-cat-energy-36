@@ -1,0 +1,13 @@
+.hero {
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("../../images/background-image-mobile-1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (resolution >= 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("../../images/background-image-mobile-2x.jpg");
+    background-size: cover;
+  }
+}

@@ -1,1 +1,22 @@
 /* здесь используйте глобальные переменные */
+
+// Цвета
+$color-basis: rgba(0, 0, 0, 1);
+$color-accent: rgba(255, 255, 255, 1);
+$basic-green: rgba(104, 183, 56, 1);
+$special-dark-grey: rgba(68, 68, 68, 1);
+$background-grey: rgba(242, 242, 242, 1);
+
+// Шрифты
+$primary-font: "Lato", "Arial", sans-serif;
+$secondary-font: "Oswald", "Arial", sans-serif;
+
+// Размеры
+$font-size-mobile-h1: 36px;
+$line-height-mobile-h1: 36px;
+$font-size-tablet-h1: 60px;
+$line-height-tablet-h1: 60px;
+
+// Размеры вьюпорта
+$tablet-width: 768px;
+$desktop-width: 1440px;
