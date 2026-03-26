@@ -1,0 +1,22 @@
+.live-example__slider {
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.live-example__slider-control-button {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: transparent;
+  border: none;
+}
+
+@media (min-width: 768px) {
+
+  .live-example__slider {
+    background-color: $background-grey;
+  }
+}

@@ -1,0 +1,113 @@
+.live-example__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.live-example__item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 32px;
+  border: 1px solid rgba(205, 205, 205, 1);
+  border-bottom: none;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.live-example__item:last-child {
+  margin-right: 0;
+}
+
+.live-example__item::after, .live-example__item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 20px; /* Длина боковых "усиков" снизу */
+  height: 1px;
+  background: rgba(205, 205, 205, 1);
+}
+
+.live-example__item::before {
+  left: 0;
+}
+
+.live-example__item::after {
+  right: 0;
+}
+
+.live-example__value {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Oswald", "Arial", sans-serif;
+  color: $color-basis;
+  margin-bottom: 8px;
+}
+
+.live-example__term {
+  font-family: "Lato", "Aria", sans-serif;
+  font-size: 12px;
+  line-height: 100%;
+  color: $special-dark-grey;
+  text-align: center;
+  font-weight: 400;
+  text-transform: lowercase;
+  margin-bottom: -16px;
+}
+
+.live-example__item-total {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Oswald", "Arial", sans-serif;
+  color: $color-basis;
+}
+
+.live-example__total-term {
+  margin: 0;
+}
+
+.live-example__total-value {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+
+  .live-example__inner-wrap {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .live-example__list {
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  .live-example__item {
+    width: 162px;
+  }
+
+  .live-example__item-total {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 20px;
+  }
+
+  .live-example__value {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
