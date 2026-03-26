@@ -1,12 +1,23 @@
 /* GLOBAL */
 @import "./global/variables.scss";
+@import "./global/mixins.scss";
 @import "./global/fonts.scss";
 @import "./global/global.scss";
 
 /* BLOCKS */
+@import "./blocks/button.scss";
 @import "./blocks/visually-hidden.scss";
 @import "./blocks/wrapper.scss";
-@import "./blocks/page.scss";
 @import "./blocks/page-header.scss";
 @import "./blocks/page-nav.scss";
+@import "./blocks/page-header__burger.scss";
 @import "./blocks/hero.scss";
+@import "./blocks/page-main__image.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/functions.scss";
+@import "./blocks/live-example.scss";
+@import "./blocks/live-example__list.scss";
+@import "./blocks/live-example__slider.scss";
+@import "./blocks/section-title.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/page-footer.scss";

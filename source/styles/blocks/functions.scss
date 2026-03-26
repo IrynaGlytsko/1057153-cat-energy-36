@@ -1,0 +1,73 @@
+.functions {
+  padding-bottom: 50px;
+}
+
+.functions__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.functions__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.functions__item-image {
+  margin-right: 20px;
+}
+
+.functions__item-text {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+
+  .functions__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: decimal;
+  }
+
+  .functions__item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 250px;
+    height: 280px;
+    margin-right: 135px;
+  }
+
+  .functions__item-image {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+  }
+
+  .functions__item--one {
+    background-image: url("../../images/1.png");
+    background-repeat: no-repeat;
+    background-position: 155px;
+  }
+
+  .functions__item--two {
+    background-image: url("../../images/2.png");
+    background-repeat: no-repeat;
+    background-position: 115px;
+  }
+
+  .functions__item--three {
+    background-image: url("../../images/3.png");
+    background-repeat: no-repeat;
+    background-position: 115px;
+  }
+
+  .functions__item--four {
+    background-image: url("../../images/4.png");
+    background-repeat: no-repeat;
+    background-position: 115px;
+  }
+}
+

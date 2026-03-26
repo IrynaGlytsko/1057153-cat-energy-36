@@ -3,11 +3,68 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 302px;
 }
 
 @media (resolution >= 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("../../images/background-image-mobile-2x.jpg");
     background-size: cover;
+  }
+}
+
+.hero__title {
+  font-family: $secondary-font;
+  font-size: $font-size-mobile-h1;
+  line-height: $line-height-mobile-h1;
+  font-weight: 400;
+  padding-top: 27px;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+.hero__title--primary {
+  text-align: center;
+  color: $color-accent;
+}
+
+.hero__description {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  color: $color-accent;
+  font-weight: 400;
+  font-family: $secondary-font;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  
+  .hero {
+    background-image: none;
+  }
+
+  .hero__title {
+    text-align: left;
+    color: $color-basis;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    font-family: "Oswald", "Arial", sans-serif;
+    margin-left: 90px;
+    width: 60%;
+    padding-bottom: 40px;
+  }
+
+  .hero__description {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: $color-basis;
+    text-align: left;
+    margin-left: 90px;
+    padding-bottom: 50px;
   }
 }
