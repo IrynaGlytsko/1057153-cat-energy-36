@@ -9,11 +9,12 @@
 @import "./blocks/visually-hidden.scss";
 @import "./blocks/wrapper.scss";
 @import "./blocks/page-header.scss";
-@import "./blocks/page-nav.scss";
-@import "./blocks/page-header__burger.scss";
+@import "./blocks/page-nav-burger.scss";
+@import "./blocks/page-header__nav-wrapper.scss";
+@import "./blocks/page__main.scss";
 @import "./blocks/hero.scss";
-@import "./blocks/page-main__image.scss";
 @import "./blocks/catalog.scss";
+@import "./blocks/catalog-products__list.scss";
 @import "./blocks/functions.scss";
 @import "./blocks/live-example.scss";
 @import "./blocks/live-example__list.scss";

@@ -1,4 +1,4 @@
-.contacts .wrapper {
+.contacts__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,5 +48,12 @@
     font-size: 16px;
     line-height: 20px;
     text-align: right;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .contacts__wrapper {
+    display: none;
   }
 }

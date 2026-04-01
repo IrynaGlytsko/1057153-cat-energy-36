@@ -25,19 +25,17 @@
 @media (min-width: 768px) {
 
   .functions__list {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    list-style-type: decimal;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .functions__item {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 250px;
-    height: 280px;
-    margin-right: 135px;
+    width: 350px;
+    height: 300px;
+    margin-right: 50px;
   }
 
   .functions__item-image {
@@ -71,3 +69,10 @@
   }
 }
 
+@media (min-width: 1440px) {
+
+  .functions__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,19 @@
+.page-backgroung-image {
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("../../images/background-image-desktop-1x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 695px;
+    width: 720px;
+    position: absolute;
+    top: -65px;
+    right: 120px;
+}
+
+ @media (resolution >= 2dppx) {
+  .page-backgroung-image {
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("../../images/background-image-desktop-2x.png");
+    background-size: cover;
+  }
+}
+

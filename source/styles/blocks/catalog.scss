@@ -107,3 +107,38 @@
     font-size: 20px;
   }
 }
+
+@media (min-width: 1440px) {
+
+  .catalog__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .catalog__item {
+    width: 570px;
+    height: 385px;
+  }
+
+  .catalog__description {
+    width: 80%;
+  }
+
+  .catalog__item-image {
+    position: relative;
+    top: 44px;
+    left: 44px;
+    margin-right: 55px;
+    margin-bottom: 40px;
+  }
+
+  .catalog__description {
+    padding-bottom: 23px;
+    width: 100%;
+  }
+
+  .catalog__link {
+    margin-bottom: 55px;
+  }
+}
