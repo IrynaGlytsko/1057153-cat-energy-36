@@ -1,0 +1,28 @@
+.promotion {
+  text-align: center;
+  width: 100%;
+  margin-top: 35px;
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("../../images/promotion-1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 290px;
+}
+
+@media (resolution >= 2dppx) {
+  .promotion {
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("../../images/promotion-2x.jpg");
+    background-size: cover;
+  }
+}
+
+.promotion-image {
+  margin-top: 58px;
+  margin-bottom: 48px;
+}
+
+.promotion-text {
+  width: 60%;
+  margin: 0 auto;
+  color: $color-accent;
+}
