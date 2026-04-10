@@ -1,0 +1,62 @@
+.subscription {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.subscription__title {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $color-basis;
+}
+
+.subscription__text {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $color-basis;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+.subscription__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription__form-input {
+  margin-bottom: 16px;
+  padding: 20px 0 15px 15px;
+  height: 56px;
+  border: none;
+  border-top: 1px solid rgba(205, 205, 205, 1);
+  border-bottom: 1px solid rgba(205, 205, 205, 1);
+}
+
+.subscription__form-input::placeholder {
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  color: rgba(68, 68, 68, 1);
+}
+
+.subscription__form-button {
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  background-color: $basic-green;
+  color: $color-accent;
+  text-transform: uppercase;
+}

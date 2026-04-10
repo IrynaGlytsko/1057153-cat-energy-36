@@ -1,7 +1,12 @@
+.contacts {
+  background-color: $background-grey;
+}
+
 .contacts__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 .contacts__title {
