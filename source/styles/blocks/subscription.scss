@@ -60,3 +60,61 @@
   color: $color-accent;
   text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+
+  .subscription {
+    margin-bottom: 80px;
+  }
+
+  .subscription__title {
+    font-size: 32px;
+    line-height: 32px;
+    padding: 80px 0 0;
+    margin-bottom: 66px;
+    margin-left: 40px;
+  }
+
+  .subscription__text {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .subscription__title {
+    margin-left: 0;
+    margin-bottom: 72px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .subscription__text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .subscription .subscription__form {
+    margin: 0 auto;
+    margin-bottom: 104px;
+  }
+
+  .subscription__form {
+    width: 752px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .subscription__form-input {
+    width: 496px;
+    height: 56px;
+    border-left: 1px solid rgba(205, 205, 205, 1);
+  }
+
+  .subscription__form-button {
+    width: 256px;
+    height: 56px;
+  }
+}

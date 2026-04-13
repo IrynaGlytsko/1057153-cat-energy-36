@@ -26,3 +26,30 @@
   margin: 0 auto;
   color: $color-accent;
 }
+
+@media (min-width: 768px) {
+
+  .promotion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promotion-image {
+    margin-left: 200px;
+  }
+
+  .promotion-text {
+    width: 20%;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .promotion {
+    display: none;
+  }
+}
